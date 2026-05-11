@@ -43,7 +43,7 @@ This system authenticates users by jointly analyzing two biometric modalities â€
 
 ## Screenshots
 
-### Registration Page
+### Successful Registration
 ![Registration](screenshots/reg.png)
 
 ### Login â€” Access Granted
