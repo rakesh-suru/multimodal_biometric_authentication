@@ -2,6 +2,13 @@
 
 > **Biometric Authentication and Correlation Analysis Based on CNN–CBAM Fusion Network for Multimodal Recognition**
 
+![Python](https://img.shields.io/badge/Python-3.8%2B-blue?logo=python&logoColor=white)
+![PyTorch](https://img.shields.io/badge/PyTorch-2.x-ee4c2c?logo=pytorch&logoColor=white)
+![Streamlit](https://img.shields.io/badge/Streamlit-App-ff4b4b?logo=streamlit&logoColor=white)
+![License](https://img.shields.io/badge/License-MIT-green)
+![Modalities](https://img.shields.io/badge/Modalities-Iris%20%2B%20Palm-purple)
+![Status](https://img.shields.io/badge/Status-Active-brightgreen)
+
 A deep learning–powered biometric authentication system that fuses **iris** and **palm** images for secure, multi-factor identity verification. Built with a custom CNN–CBAM (Convolutional Block Attention Module) fusion architecture and served via an interactive Streamlit web application.
 
 ---
@@ -9,6 +16,7 @@ A deep learning–powered biometric authentication system that fuses **iris** an
 ## Table of Contents
 
 - [Overview](#overview)
+- [Screenshots](#screenshots)
 - [Architecture](#architecture)
 - [Project Structure](#project-structure)
 - [Requirements](#requirements)
@@ -18,6 +26,7 @@ A deep learning–powered biometric authentication system that fuses **iris** an
 - [Admin Panel](#admin-panel)
 - [Configuration](#configuration)
 - [Model Training](#model-training)
+- [License](#license)
 
 ---
 
@@ -32,7 +41,21 @@ This system authenticates users by jointly analyzing two biometric modalities �
 
 ---
 
-## Architecture
+## Screenshots
+
+### Registration Page
+![Registration](screenshots/reg.png)
+
+### Login — Access Granted
+![Login Success](screenshots/log.png)
+
+### Login — Access Denied
+![Login Failed](screenshots/log_failed.png)
+
+### Admin Panel
+![Admin Panel](screenshots/adm.png)
+
+---
 
 ```
 Input (Iris + Palm)
@@ -194,3 +217,33 @@ The full training pipeline is provided in `model.ipynb`, covering:
 - Model export to `final_biometric_model.pth`
 
 Open the notebook in Jupyter or Google Colab to retrain or fine-tune the model on your own biometric dataset.
+
+---
+
+## License
+
+This project is licensed under the **MIT License**.
+
+```
+MIT License
+
+Copyright (c) 2024 rakesh-suru
+
+Permission is hereby granted, free of charge, to any person obtaining a copy
+of this software and associated documentation files (the "Software"), to deal
+in the Software without restriction, including without limitation the rights
+to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+copies of the Software, and to permit persons to whom the Software is
+furnished to do so, subject to the following conditions:
+
+The above copyright notice and this permission notice shall be included in all
+copies or substantial portions of the Software.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+SOFTWARE.
+```
