@@ -2,6 +2,7 @@
 
 > **Biometric Authentication and Correlation Analysis Based on CNN–CBAM Fusion Network for Multimodal Recognition**
 
+
 ![Python](https://img.shields.io/badge/Python-3.8%2B-blue?logo=python&logoColor=white)
 ![PyTorch](https://img.shields.io/badge/PyTorch-2.x-ee4c2c?logo=pytorch&logoColor=white)
 ![Streamlit](https://img.shields.io/badge/Streamlit-App-ff4b4b?logo=streamlit&logoColor=white)
@@ -10,6 +11,10 @@
 ![Status](https://img.shields.io/badge/Status-Active-brightgreen)
 
 A deep learning–powered biometric authentication system that fuses **iris** and **palm** images for secure, multi-factor identity verification. Built with a custom CNN–CBAM (Convolutional Block Attention Module) fusion architecture and served via an interactive Streamlit web application.
+
+
+[![Live Demo](https://img.shields.io/badge/Live%20Demo-Streamlit-ff4b4b?logo=streamlit&logoColor=white)](https://multimodal-biometrics.streamlit.app)
+
 
 ---
 
